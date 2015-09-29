@@ -150,6 +150,7 @@ public class TestEngine {
 
 	    if (env.testStepStatus == TestStepStatus.FAIL) {
 		testCaseStatus = TestCaseStatus.FAIL;
+
 		break;
 	    } else if (env.testStepStatus == TestStepStatus.PASS) {
 		testCaseStatus = TestCaseStatus.PASS;
@@ -205,7 +206,7 @@ public class TestEngine {
 	 */
 	String[] stepData = dataContent.split("#");
 	String StepAction = reader.getCellValue(tcData, tcRowNumber, "stepaction");
-	return new StepDetails(testCaseName, step, parent, testObject, stepData, StepAction);
+	return new StepDetails(testCaseName, step, parent, testObject, stepData, StepAction, TestStepStatus.INITIAL);
     }
 
     /**

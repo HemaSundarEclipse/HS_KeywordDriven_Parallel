@@ -9,6 +9,7 @@ package com.HS.common;
  */
 public class StepDetails {
     private final String step, parent, testObject, StepAction, testCaseNameBelongTo;
+    private TestStepStatus stepStatus;
     String[] stepData;
 
     /**
@@ -21,13 +22,14 @@ public class StepDetails {
      * 
      */
     public StepDetails(String tcName, String step, String parent, String testObject, String[] stepData,
-	    String StepAction) {
+	    String StepAction, TestStepStatus stepStatus) {
 	this.testCaseNameBelongTo = tcName;
 	this.step = step;
 	this.parent = parent;
 	this.testObject = testObject;
 	this.stepData = stepData;
 	this.StepAction = StepAction;
+	this.stepStatus = stepStatus;
     }
 
     /**
@@ -42,6 +44,14 @@ public class StepDetails {
      */
     public String getParent() {
 	return parent;
+    }
+
+    public void setStepStatus(TestStepStatus stepStatus) {
+	this.stepStatus = stepStatus;
+    }
+
+    public TestStepStatus getStepStatus() {
+	return stepStatus;
     }
 
     /**

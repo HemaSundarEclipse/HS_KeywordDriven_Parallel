@@ -8,5 +8,5 @@ package com.HS.common;
  *
  */
 public enum TestStepStatus {
-    PASS, FAIL, WARNING, IGNORE, SKIP;
+    INITIAL, PASS, FAIL, WARNING, IGNORE, SKIP;
 }

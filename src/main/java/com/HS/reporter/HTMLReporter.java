@@ -119,8 +119,8 @@ public class HTMLReporter implements Reporter {
 	String updatedPartString = threadReportString.substring(index).replace(
 		"<!--test step detail for " + currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "-->",
 		"<tr><td>" + testCase.getTestCaseNameBelongTo() + "</td><td>" + testCase.getStepAction() + "</td><td>"
-			+ testCase.getStep()
-			+ "</td><td>Status</td><td>Execution Date & Time</td><td>Remarks</td></tr><!--test step detail for "
+			+ testCase.getStep() + "</td><td>" + env.testStepStatus
+			+ "</td><td>Execution Date & Time</td><td>Remarks</td></tr><!--test step detail for "
 			+ currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "-->");
 	String resultantThreadReport = threadReportString.substring(0, index).concat(updatedPartString);
 

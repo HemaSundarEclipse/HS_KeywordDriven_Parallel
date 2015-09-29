@@ -1,7 +1,9 @@
 /**
  * 
  */
-package com.HS.common;
+package com.HS.pojos;
+
+import com.HS.enums.TestStepStatus;
 
 /**
  * @author Hema

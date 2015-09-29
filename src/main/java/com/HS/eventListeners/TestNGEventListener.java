@@ -13,7 +13,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.xml.XmlTest;
 
-import com.HS.common.TestNGVariables;
+import com.HS.pojos.TestNGVariables;
 import com.HS.utils.Log;
 
 public class TestNGEventListener implements ITestListener, IInvokedMethodListener, ISuiteListener {

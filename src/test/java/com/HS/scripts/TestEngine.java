@@ -16,14 +16,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.HS.common.ExecutionEnvironment;
-import com.HS.common.StepDetails;
-import com.HS.common.TestCaseLocation;
-import com.HS.common.TestCaseStatus;
-import com.HS.common.TestNGVariables;
-import com.HS.common.TestObject;
 import com.HS.common.TestStepExecution;
-import com.HS.common.TestStepStatus;
 import com.HS.dataReader.CSVDataReader;
+import com.HS.enums.TestCaseStatus;
+import com.HS.enums.TestStepStatus;
+import com.HS.pojos.StepDetails;
+import com.HS.pojos.TestCaseLocation;
+import com.HS.pojos.TestNGVariables;
+import com.HS.pojos.TestObject;
 import com.HS.reporter.HTMLReporter;
 import com.HS.utils.Log;
 

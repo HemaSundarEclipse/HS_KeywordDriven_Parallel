@@ -19,8 +19,8 @@ import org.testng.ITestContext;
 import org.testng.xml.XmlTest;
 
 import com.HS.common.ExecutionEnvironment;
-import com.HS.common.StepDetails;
-import com.HS.common.TestCaseLocation;
+import com.HS.pojos.StepDetails;
+import com.HS.pojos.TestCaseLocation;
 import com.HS.utils.Log;
 
 /**

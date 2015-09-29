@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.HS.common;
+package com.HS.pojos;
 
 import org.testng.ISuite;
 import org.testng.ITestContext;

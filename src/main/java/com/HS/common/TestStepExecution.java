@@ -7,6 +7,9 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 
+import com.HS.enums.StepActions;
+import com.HS.pojos.StepDetails;
+import com.HS.pojos.TestObject;
 import com.HS.reporter.HTMLReporter;
 import com.HS.utils.Log;
 

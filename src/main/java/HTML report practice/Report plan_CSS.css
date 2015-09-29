@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+<style>
+.removed {
+	display: none;
+}
+
+.expands {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.child1 td:first-child {
+	padding-left: 1em;
+}
+
+.child2 td:first-child {
+	padding-left: 2em;
+}
+</style>

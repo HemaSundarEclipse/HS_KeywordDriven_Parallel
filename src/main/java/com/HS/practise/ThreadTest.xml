@@ -1,0 +1,15 @@
+<suite name="Parallel Tests" parallel="tests" thread-count="2"
+	verbose="1">
+	<tests>
+		<test name="1">
+			<classes>
+				<class name="com.HS.practise.ThreadTest" />
+			</classes>
+		</test>
+		<test name="2">
+			<classes>
+				<class name="com.HS.practise.ThreadTest" />
+			</classes>
+		</test>
+	</tests>
+</suite>

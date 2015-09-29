@@ -1,0 +1,19 @@
+<suite name="Parallel Tests" parallel="tests" thread-count="10"
+	verbose="1">
+	<listeners>
+		<listener class-name="com.HS.eventListeners.TestNGEventListener" />
+		<!-- <listener class-name="com.HS.scripts.TestEngine" /> -->
+	</listeners>
+	<tests>
+		<test name="Outfits1">
+			<parameters>
+				<parameter name="browser" value="chrome" />
+				<parameter name="testGroup" value="" />
+				<parameter name="testCaseID" value="VerifyOutFit13A250" />
+			</parameters>
+			<classes>
+				<class name="com.HS.scripts.TestEngine" />
+			</classes>
+		</test>
+	</tests>
+</suite>

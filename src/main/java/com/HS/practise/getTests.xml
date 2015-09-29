@@ -1,0 +1,38 @@
+<suite name="Parallel Tests" verbose="1">
+	<listeners>
+		<listener class-name="com.HS.eventListeners.TestNGEventListener" />
+		<listener class-name="com.HS.practise.GetTestTags" />
+	</listeners>
+	<tests>
+		<test name="Outfits1">
+			<parameters>
+				<parameter name="browser" value="chrome" />
+				<parameter name="testGroup" value="" />
+				<parameter name="testCaseID" value="VerifyOutFit13A250,VerifyOutFit13A250_1" />
+			</parameters>
+			<classes>
+				<class name="com.HS.practise.GetTestTags" />
+			</classes>
+		</test>
+		<test name="Outfits2">
+			<parameters>
+				<parameter name="browser" value="chrome" />
+				<parameter name="testGroup" value="" />
+				<parameter name="testCaseID" value="VerifyOutFit13A250,VerifyOutFit13A250_1" />
+			</parameters>
+			<classes>
+				<class name="com.HS.practise.GetTestTags" />
+			</classes>
+		</test>
+		<test name="Outfits3">
+			<parameters>
+				<parameter name="browser" value="chrome" />
+				<parameter name="testGroup" value="" />
+				<parameter name="testCaseID" value="VerifyOutFit13A250,VerifyOutFit13A250_1" />
+			</parameters>
+			<classes>
+				<class name="com.HS.practise.GetTestTags" />
+			</classes>
+		</test>
+	</tests>
+</suite>

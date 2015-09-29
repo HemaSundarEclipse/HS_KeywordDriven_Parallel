@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+.removed {
+	display: none;
+}
+
+.expands {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.child1 td:first-child {
+	padding-left: 1em;
+}
+
+.child2 td:first-child {
+	padding-left: 2em;
+}
+</style>
+
+<script>
+	function toggle() {
+		for (var i = 0; i < arguments.length; i++) {
+			with (document.getElementById(arguments[i])) {
+				if (className.indexOf('removed') > -1) {
+					className = className.replace('removed');
+				} else {
+					className += ' removed';
+				}
+			}
+		}
+	}
+</script>
+
+
+</head>
+<body>
+	<table style="width: 70%">
+		<caption>Thread Environment: NotSet</caption>
+		<tr>
+			<th>System environment</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>Operating system : NotSet</td>
+			<td>Browser : NotSet</td>
+		</tr>
+		<tr>
+			<td>Execution started : NotSet</td>
+			<td>Execution completed : NotSet</td>
+		</tr>
+		<tr>
+			<td>Total Duration : NotSet</td>
+			<td>Test cases count : NotSet</td>
+		</tr>
+		<tr>
+			<td>Operating system : NotSet</td>
+			<td>Test cases count : NotSet</td>
+		</tr>
+		<tr>
+			<td>Environment variables : NotSet</td>
+			<td>Log file : NotSet</td>
+		</tr>
+	</table>
+	<div>
+		<table style="width: 70%">
+			<thead>
+				<tr>
+					<th>S. No.</th>
+					<th>Test case name</th>
+					<th>Test group</th>
+					<th>Browser</th>
+					<th>Break point</th>
+					<th>Status</th>
+					<th>Failed step</th>
+					<th>Result</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="p1" class="expands" onclick="toggle('t1_1')">
+					<td>NotSet</td>
+					<td>NotSet</td>
+					<td>NotSet</td>
+					<td>NotSet</td>
+					<td>NotSet</td>
+					<td>NotSet</td>
+					<td>NotSet</td>
+					<td>NotSet</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<table style="width: 70%" id="t1_1" class="removed child1">
+		<tbody>
+
+			<tr>
+				<th>Test Name</th>
+				<th>Test Step</th>
+				<th>Test Details</th>
+				<th>Status</th>
+				<th>Execution Date & Time</th>
+				<th>Remarks</th>
+			</tr>
+			<tr>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+			</tr>
+			<tr>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+			</tr>
+			<tr>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+			</tr>
+			<tr>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+			</tr>
+			<tr>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+				<td>NotSet</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

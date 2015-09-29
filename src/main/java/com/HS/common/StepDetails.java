@@ -29,6 +29,12 @@ public class StepDetails {
 	this.testObject = testObject;
 	this.stepData = stepData;
 	this.StepAction = StepAction;
+	/*
+	 * Currently we are using env.testStepStatus variable instead of this.
+	 * Down the line we should implement code to use this variable
+	 * 
+	 * currentIssue: to validate testCase result
+	 */
 	this.stepStatus = stepStatus;
     }
 

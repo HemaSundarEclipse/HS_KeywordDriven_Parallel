@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hemasundar</groupId>
-	<artifactId>HS_KeywordDriven</artifactId>
+	<artifactId>HS_KeywordDriven_Parallel</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>HS_KeywordDriven</name>
+	<name>HS_KeywordDriven_Parallel</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

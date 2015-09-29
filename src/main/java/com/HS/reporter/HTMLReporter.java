@@ -120,7 +120,8 @@ public class HTMLReporter implements Reporter {
 		"<!--test step detail for " + currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "-->",
 		"<tr><td>" + testCase.getTestCaseNameBelongTo() + "</td><td>" + testCase.getStepAction() + "</td><td>"
 			+ testCase.getStep()
-			+ "</td><td>Status</td><td>Execution Date & Time</td><td>Remarks</td></tr>");
+			+ "</td><td>Status</td><td>Execution Date & Time</td><td>Remarks</td></tr><!--test step detail for "
+			+ currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "-->");
 	String resultantThreadReport = threadReportString.substring(0, index).concat(updatedPartString);
 
 	writeFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)), resultantThreadReport);

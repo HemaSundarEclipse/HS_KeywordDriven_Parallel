@@ -52,6 +52,7 @@ public class TestEngine {
 	reader = new CSVDataReader();
 	TestCaseIDsForExecution = new ArrayList<TestCaseLocation>();
 	objReporter = new HTMLReporter(env);
+	testCaseStatus = TestCaseStatus.INITIAL;
     }
 
     /**
@@ -148,13 +149,30 @@ public class TestEngine {
 
 	    stepExecutor.executeTestStep();
 
-	    if (env.testStepStatus == TestStepStatus.FAIL) {
-		testCaseStatus = TestCaseStatus.FAIL;
-
-		break;
-	    } else if (env.testStepStatus == TestStepStatus.PASS) {
-		testCaseStatus = TestCaseStatus.PASS;
+	    /**
+	     * testCase status is updating based on the current testStepStatus.
+	     * whichever status is of highest priority in testStep & testCase,
+	     * will be the testCase status.
+	     */
+	    int testStepStatusPriority = env.testStepStatus.value;
+	    int testCaseStatusPriority = testCaseStatus.value;
+	    if (testStepStatusPriority > testCaseStatusPriority) {
+		TestCaseStatus[] values = TestCaseStatus.values();
+		for (TestCaseStatus indTestCaseStatus : values) {
+		    if (indTestCaseStatus.value == testStepStatusPriority) {
+			testCaseStatus = indTestCaseStatus;
+			break;
+		    }
+		}
 	    }
+	    /**
+	     * if the testStep fails, then we are stopping/failing the execution
+	     * of that particular testCase
+	     */
+	    if (testCaseStatus == TestCaseStatus.FAIL) {
+		break;
+	    }
+
 	    /* Update the HTML report with test step result */
 
 	    tcRowNumber++;

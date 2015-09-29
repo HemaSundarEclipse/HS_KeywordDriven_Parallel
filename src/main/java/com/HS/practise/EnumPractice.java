@@ -14,6 +14,8 @@ public class EnumPractice {
      */
     public static void main(String[] args) {
 	System.out.println(TestStepStatus.valueOf("FAIL"));
+	TestStepStatus test = TestStepStatus.IGNORE;
+	System.out.println("individual value for IGNORE is " + test.value);
 	TestStepStatus[] values = TestStepStatus.values();
 	for (TestStepStatus testStepStatus : values) {
 	    System.out.println(testStepStatus.value);

@@ -8,5 +8,11 @@ package com.HS.enums;
  *
  */
 public enum TestStepStatus {
-    INITIAL, PASS, FAIL, WARNING, IGNORE, SKIP;
+
+    INITIAL(0), PASS(2), FAIL(4), WARNING(3), IGNORE(1), SKIP(1);
+    public int value;
+
+    private TestStepStatus(int value) {
+	this.value = value;
+    }
 }

@@ -102,7 +102,7 @@ public class CommonSeleniumActions extends DriverConfiguration {
     public WebElement getElement(TestObject elementDetails) throws Exception {
 
 	WebElement we = driver.findElement(byLocator(elementDetails));
-	return null;
+	return we;
 
     }
 

@@ -136,6 +136,7 @@ public class TestEngine {
     private void executeTestCase(String tcName, int tcRowNumber) {
 	String step, parent, testObject, dataContent, StepAction;
 	int tcRowCount = tcData.size();
+	String cellValue;
 	do {
 	    StepDetails tcStepData4TestStep = getTCStepData4TestStep(tcName, tcRowNumber);
 	    TestObject currentStepTestObject = getORData4TestStep(tcStepData4TestStep.getParent(),
@@ -160,8 +161,8 @@ public class TestEngine {
 	    if (tcRowNumber == tcRowCount) {
 		break;
 	    }
-	} while (reader.getCellValue(tcData, tcRowNumber, "testcase_id") == null
-		|| reader.getCellValue(tcData, tcRowNumber, "testcase_id").trim() == "");
+	    cellValue = reader.getCellValue(tcData, tcRowNumber, "testcase_id");
+	} while (cellValue == null || cellValue.trim().equalsIgnoreCase(""));
 
     }
 

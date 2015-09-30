@@ -1,0 +1,1754 @@
+{
+    "state": "success",
+    "sessionId": "9f9eeb66-e54e-40d2-8526-84083bb7f8e4",
+    "hCode": 1417431356,
+    "value": [
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443624747018
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443624762693
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443624762800
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443624762835
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443624762850
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443624762934
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443624762957
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443624763016
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443624763033
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443624765947
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443624765964
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443624766074
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443624766105
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443624766276
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (b6576e11-c78a-4b9a-847a-6689339c35b1)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443624766307
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (b6576e11-c78a-4b9a-847a-6689339c35b1)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443624766388
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443624766410
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443624766517
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (b6576e11-c78a-4b9a-847a-6689339c35b1)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443624766529
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (b6576e11-c78a-4b9a-847a-6689339c35b1)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443624766709
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443624766726
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443624767676
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (b6576e11-c78a-4b9a-847a-6689339c35b1)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443624767685
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (b6576e11-c78a-4b9a-847a-6689339c35b1)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443624767896
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@49f59d9e)",
+            "timestamp": 1443624767951
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@49f59d9e",
+            "timestamp": 1443624767951
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443624821557
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443624848740
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443624848789
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443624848898
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443624848913
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443624848993
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443624849005
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443624849060
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443624849075
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443624851547
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443624851556
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443624851646
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443624851673
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443624851830
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (6299e3c4-b621-4af8-9920-ce0fbdc55b46)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443624851844
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (6299e3c4-b621-4af8-9920-ce0fbdc55b46)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443624851923
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443624851934
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443624852015
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (6299e3c4-b621-4af8-9920-ce0fbdc55b46)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443624852026
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (6299e3c4-b621-4af8-9920-ce0fbdc55b46)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443624852207
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443624852222
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443624852988
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (6299e3c4-b621-4af8-9920-ce0fbdc55b46)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443624852997
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (6299e3c4-b621-4af8-9920-ce0fbdc55b46)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443624853166
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@17379be0)",
+            "timestamp": 1443624853195
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@17379be0",
+            "timestamp": 1443624853196
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: 7622bbbc-0918-4641-bdfc-d08689e141c5])",
+            "timestamp": 1443625071231
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443625139707
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443625146014
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443625146071
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443625146228
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443625146241
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443625146346
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443625146359
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443625146438
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443625146453
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443625149076
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443625149085
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443625149267
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443625149296
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443625149429
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (d552502a-518c-4f26-9613-d6451ed38420)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443625149458
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (d552502a-518c-4f26-9613-d6451ed38420)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443625149591
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443625149601
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443625149708
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (d552502a-518c-4f26-9613-d6451ed38420)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443625149722
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (d552502a-518c-4f26-9613-d6451ed38420)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443625149879
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443625149894
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443625150861
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (d552502a-518c-4f26-9613-d6451ed38420)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443625150874
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (d552502a-518c-4f26-9613-d6451ed38420)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443625151057
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: 4a82f27a-b6b2-4147-8d98-1463eef55f6a])",
+            "timestamp": 1443625153222
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [delete session: 4a82f27a-b6b2-4147-8d98-1463eef55f6a]",
+            "timestamp": 1443625153462
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.SessionCleaner.checkExpiry Session 7622bbbc-0918-4641-bdfc-d08689e141c5 deleted due to client timeout",
+            "timestamp": 1443625371414
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443625384987
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443625392169
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443625392208
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443625392287
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443625392296
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443625392360
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443625392379
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443625392459
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443625392475
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443625395080
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443625395094
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443625395231
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443625395259
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443625395390
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (13e792f9-0693-4805-816a-4e7089707f88)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443625395406
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (13e792f9-0693-4805-816a-4e7089707f88)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443625395486
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443625395495
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443625395574
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (13e792f9-0693-4805-816a-4e7089707f88)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443625395588
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (13e792f9-0693-4805-816a-4e7089707f88)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443625395818
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443625395837
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443625396683
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (13e792f9-0693-4805-816a-4e7089707f88)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443625396692
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (13e792f9-0693-4805-816a-4e7089707f88)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443625396901
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@317a3b0a)",
+            "timestamp": 1443625396937
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@317a3b0a",
+            "timestamp": 1443625396940
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: e57fb162-4379-4d40-8479-e7454a340c23])",
+            "timestamp": 1443625453499
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [delete session: e57fb162-4379-4d40-8479-e7454a340c23]",
+            "timestamp": 1443625453738
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: b4b67d1b-0f86-4639-ba21-f6a24ea1bda4])",
+            "timestamp": 1443625698768
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.SessionCleaner.checkExpiry Session b4b67d1b-0f86-4639-ba21-f6a24ea1bda4 deleted due to client timeout",
+            "timestamp": 1443626001429
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443626208091
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443626216278
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443626216327
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443626216411
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443626216420
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443626216498
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626216516
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626216598
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443626216613
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443626219594
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626219605
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626219745
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626219775
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626219980
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (747696e4-b38b-443e-be49-c41484ac6317)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443626219992
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (747696e4-b38b-443e-be49-c41484ac6317)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443626220070
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626220080
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626220159
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (747696e4-b38b-443e-be49-c41484ac6317)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443626220169
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (747696e4-b38b-443e-be49-c41484ac6317)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443626220322
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443626220339
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443626221086
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (747696e4-b38b-443e-be49-c41484ac6317)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443626221095
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (747696e4-b38b-443e-be49-c41484ac6317)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443626221292
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@74acf8a7)",
+            "timestamp": 1443626221325
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@74acf8a7",
+            "timestamp": 1443626221340
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443626307375
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443626314289
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443626314337
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443626314415
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443626314425
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443626314564
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626314577
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626314656
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443626314670
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443626317432
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626317442
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626317532
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626317567
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626317672
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (0056ce4c-3150-4b72-ab19-75084e270a68)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443626317688
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (0056ce4c-3150-4b72-ab19-75084e270a68)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443626317792
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626317801
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626317880
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (0056ce4c-3150-4b72-ab19-75084e270a68)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443626317891
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (0056ce4c-3150-4b72-ab19-75084e270a68)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443626318070
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443626318087
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443626319083
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (0056ce4c-3150-4b72-ab19-75084e270a68)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443626319095
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (0056ce4c-3150-4b72-ab19-75084e270a68)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443626319495
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443626359564
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443626369484
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443626369538
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443626369634
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443626369732
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443626369835
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626369854
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626369918
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443626369931
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443626373225
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626373232
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626373323
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626373341
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626373421
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (b70191f1-85fe-4559-b38c-808438cf04bf)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443626373433
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (b70191f1-85fe-4559-b38c-808438cf04bf)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443626373512
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626373519
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626373597
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (b70191f1-85fe-4559-b38c-808438cf04bf)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443626373610
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (b70191f1-85fe-4559-b38c-808438cf04bf)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443626373927
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443626373956
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443626375006
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (b70191f1-85fe-4559-b38c-808438cf04bf)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443626375022
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (b70191f1-85fe-4559-b38c-808438cf04bf)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443626375254
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: 39a25c1c-24db-4ba0-a0a9-251265c93177])",
+            "timestamp": 1443626525425
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [delete session: 39a25c1c-24db-4ba0-a0a9-251265c93177]",
+            "timestamp": 1443626525677
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443626596694
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443626602295
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443626602341
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443626602395
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443626602403
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443626602456
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626602469
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626602522
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443626602536
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443626605031
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626605043
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626605157
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626605183
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626605286
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (e6912653-dda2-4d11-a345-40053a448560)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443626605298
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (e6912653-dda2-4d11-a345-40053a448560)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443626605376
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626605384
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626605463
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (e6912653-dda2-4d11-a345-40053a448560)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443626605472
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (e6912653-dda2-4d11-a345-40053a448560)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443626605630
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443626605643
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443626606335
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (e6912653-dda2-4d11-a345-40053a448560)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443626606343
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (e6912653-dda2-4d11-a345-40053a448560)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443626606554
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: e244b001-884d-4700-b21a-43c2c94736f7])",
+            "timestamp": 1443626620692
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443626634461
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443626640947
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443626640997
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443626641051
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443626641060
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443626641146
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626641160
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626641212
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443626641223
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443626643666
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626643675
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626643765
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626643785
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626643915
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (ae52b5ee-8c3a-43ea-857c-4b315547c9e7)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443626643929
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (ae52b5ee-8c3a-43ea-857c-4b315547c9e7)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443626644008
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626644023
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626644103
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (ae52b5ee-8c3a-43ea-857c-4b315547c9e7)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443626644113
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (ae52b5ee-8c3a-43ea-857c-4b315547c9e7)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443626644267
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443626644281
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443626645303
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (ae52b5ee-8c3a-43ea-857c-4b315547c9e7)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443626645313
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (ae52b5ee-8c3a-43ea-857c-4b315547c9e7)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443626645525
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: ba0cbf88-4e2d-40f2-aa89-2c59f7338e5d])",
+            "timestamp": 1443626677312
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443626760862
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443626768019
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443626768072
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443626768126
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443626768135
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443626768216
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626768230
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626768337
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443626768348
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443626770923
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443626770935
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443626771039
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626771059
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626771163
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (5a5fbd6d-9743-418f-8698-db97ef90aa80)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443626771175
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (5a5fbd6d-9743-418f-8698-db97ef90aa80)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443626771254
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443626771263
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443626771342
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (5a5fbd6d-9743-418f-8698-db97ef90aa80)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443626771358
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (5a5fbd6d-9743-418f-8698-db97ef90aa80)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443626771643
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443626771672
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443626772699
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (5a5fbd6d-9743-418f-8698-db97ef90aa80)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443626772714
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (5a5fbd6d-9743-418f-8698-db97ef90aa80)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443626772841
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [fetching logs for: browser])",
+            "timestamp": 1443626825002
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [fetching logs for: browser]",
+            "timestamp": 1443626825140
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: 530af0d3-a22d-497c-90ef-25976224bbeb])",
+            "timestamp": 1443626908921
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [delete session: 530af0d3-a22d-497c-90ef-25976224bbeb]",
+            "timestamp": 1443626909111
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.SessionCleaner.checkExpiry Session e244b001-884d-4700-b21a-43c2c94736f7 deleted due to client timeout",
+            "timestamp": 1443626931450
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: 9d991f0a-7827-46d7-a4b2-13ba5ed3c528])",
+            "timestamp": 1443626949125
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [delete session: 9d991f0a-7827-46d7-a4b2-13ba5ed3c528]",
+            "timestamp": 1443626949486
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.SessionCleaner.checkExpiry Session ba0cbf88-4e2d-40f2-aa89-2c59f7338e5d deleted due to client timeout",
+            "timestamp": 1443626991453
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: bfe9091f-f525-4892-a81d-1a5e774182d9])",
+            "timestamp": 1443627129509
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.SessionCleaner.checkExpiry Session bfe9091f-f525-4892-a81d-1a5e774182d9 deleted due to client timeout",
+            "timestamp": 1443627441469
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443627618468
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443627630269
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443627630313
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443627630418
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443627630426
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443627630506
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443627630516
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443627630568
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443627630580
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443627633233
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443627633244
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443627633476
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443627633495
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443627633599
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (b0d43b27-cd11-4fb7-8817-f513a7554faa)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443627633609
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (b0d43b27-cd11-4fb7-8817-f513a7554faa)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443627633689
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443627633697
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443627633776
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (b0d43b27-cd11-4fb7-8817-f513a7554faa)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443627633786
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (b0d43b27-cd11-4fb7-8817-f513a7554faa)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443627634069
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443627634091
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443627635295
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (b0d43b27-cd11-4fb7-8817-f513a7554faa)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443627635304
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (b0d43b27-cd11-4fb7-8817-f513a7554faa)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443627635517
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [fetching logs for: driver])",
+            "timestamp": 1443627635567
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [fetching logs for: driver]",
+            "timestamp": 1443627635646
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443627827184
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443627848272
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443627848318
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443627848422
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443627848432
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443627848511
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443627848524
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443627848628
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443627848642
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443627851243
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443627851254
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443627851369
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443627851394
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443627851504
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (13e2d98e-17de-486a-ab6c-0d15a1f4a9fa)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443627851516
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (13e2d98e-17de-486a-ab6c-0d15a1f4a9fa)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443627851618
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443627851626
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443627851705
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (13e2d98e-17de-486a-ab6c-0d15a1f4a9fa)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443627851713
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (13e2d98e-17de-486a-ab6c-0d15a1f4a9fa)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443627851867
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443627851879
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443627852830
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (13e2d98e-17de-486a-ab6c-0d15a1f4a9fa)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443627852837
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (13e2d98e-17de-486a-ab6c-0d15a1f4a9fa)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443627853049
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [fetching logs for: server])",
+            "timestamp": 1443627853126
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [fetching logs for: server]",
+            "timestamp": 1443627853126
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [delete session: 8192ea48-a904-457c-9e1a-bcc1b8a9f6b7])",
+            "timestamp": 1443627936255
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [delete session: 8192ea48-a904-457c-9e1a-bcc1b8a9f6b7]",
+            "timestamp": 1443627936620
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]])",
+            "timestamp": 1443628075974
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [new session: Capabilities [{browserName=firefox, version=, platform=ANY}]]",
+            "timestamp": 1443628084086
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [page load wait: 1500000])",
+            "timestamp": 1443628084130
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [page load wait: 1500000]",
+            "timestamp": 1443628084235
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [implicitly wait: 10000])",
+            "timestamp": 1443628084244
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [implicitly wait: 10000]",
+            "timestamp": 1443628084322
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443628084334
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443628084396
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get: http://google.com])",
+            "timestamp": 1443628084410
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get: http://google.com]",
+            "timestamp": 1443628088161
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get window size])",
+            "timestamp": 1443628088171
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get window size]",
+            "timestamp": 1443628088258
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443628088278
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443628088407
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (0c3d8d7d-2aa7-4daa-8cd4-9c1739d5cca8)] -> xpath: //input[@title='Search']]])",
+            "timestamp": 1443628088422
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [clear: 0 [[FirefoxDriver: firefox on WINDOWS (0c3d8d7d-2aa7-4daa-8cd4-9c1739d5cca8)] -> xpath: //input[@title='Search']]]",
+            "timestamp": 1443628088503
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //input[@title='Search']])",
+            "timestamp": 1443628088511
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //input[@title='Search']]",
+            "timestamp": 1443628088589
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (0c3d8d7d-2aa7-4daa-8cd4-9c1739d5cca8)] -> xpath: //input[@title='Search']], [seleniumhq]])",
+            "timestamp": 1443628088597
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [send keys: 0 [[FirefoxDriver: firefox on WINDOWS (0c3d8d7d-2aa7-4daa-8cd4-9c1739d5cca8)] -> xpath: //input[@title='Search']], [seleniumhq]]",
+            "timestamp": 1443628088752
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a])",
+            "timestamp": 1443628088765
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [find element: By.xpath: //div[contains(@data-async-context, 'query:')]/ol//a]",
+            "timestamp": 1443628089606
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (0c3d8d7d-2aa7-4daa-8cd4-9c1739d5cca8)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]])",
+            "timestamp": 1443628089614
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Done: [get text: 1 [[FirefoxDriver: firefox on WINDOWS (0c3d8d7d-2aa7-4daa-8cd4-9c1739d5cca8)] -> xpath: //div[contains(@data-async-context, 'query:')]/ol//a]]",
+            "timestamp": 1443628089846
+        },
+        {
+            "level": "INFO",
+            "message": "org.openqa.selenium.remote.server.DriverServlet org.openqa.selenium.remote.server.rest.ResultConfig.handle Executing: [fetching logs for: client])",
+            "timestamp": 1443628089891
+        }
+    ],
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>2.47.1</selenium.version>
 		<appium.version>2.2.0</appium.version>
-		<http.version>4.5</http.version>
+		<http.version>4.5.1</http.version>
 	</properties>
 	<dependencies>
 		<dependency>

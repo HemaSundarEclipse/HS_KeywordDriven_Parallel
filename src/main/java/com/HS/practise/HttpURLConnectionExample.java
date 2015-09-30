@@ -20,7 +20,7 @@ public class HttpURLConnectionExample {
 	http.sendGet("a5a2c9a0-dbdd-4982-98d8-7c8fa9cbd4a6");
 
 	System.out.println("\nTesting 2 - Send Http POST request");
-	http.sendPost();
+	http.sendPost("https://selfsolve.apple.com/wcResults.do");
 
     }
 
@@ -58,9 +58,9 @@ public class HttpURLConnectionExample {
     }
 
     // HTTP POST request
-    private void sendPost() throws Exception {
+    public void sendPost(String url) throws Exception {
 
-	String url = "https://selfsolve.apple.com/wcResults.do";
+	// String url = "https://selfsolve.apple.com/wcResults.do";
 	URL obj = new URL(url);
 	HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
 

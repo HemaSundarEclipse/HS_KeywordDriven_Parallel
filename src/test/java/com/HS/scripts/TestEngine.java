@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.HS.common.ApacheHttpRequest;
 import com.HS.common.ExecutionEnvironment;
 import com.HS.common.TestStepExecution;
 import com.HS.dataReader.CSVDataReader;
@@ -25,7 +26,6 @@ import com.HS.pojos.StepDetails;
 import com.HS.pojos.TestCaseLocation;
 import com.HS.pojos.TestNGVariables;
 import com.HS.pojos.TestObject;
-import com.HS.practise.ApacheHttpRequest;
 import com.HS.reporter.HTMLReporter;
 import com.HS.utils.Log;
 
@@ -286,22 +286,40 @@ public class TestEngine {
     private void AfterTestMethod() throws Exception {
 	logger.info("In AfterTest method");
 
-	/*
-	 * HttpURLConnectionExample request = new HttpURLConnectionExample();
-	 * try { request.sendGet("/session/" + ((RemoteWebDriver)
-	 * env.driver).getSessionId().toString()); } catch (Exception e) {
-	 * e.printStackTrace(); }
-	 * request.sendPost("http://127.0.0.1:4444/wd/hub/session/" +
-	 * ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log");
-	 */
 	ApacheHttpRequest apacheRequest = new ApacheHttpRequest();
 	// apacheRequest.sendGet(
 	// "http://127.0.0.1:4444/wd/hub/session/" + ((RemoteWebDriver)
 	// env.driver).getSessionId().toString());
 
-	apacheRequest.sendPost("http://127.0.0.1:4444/wd/hub/session/"
-		+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log");
+	saveSeleniumLogs(apacheRequest);
 	// Reset driver object state
 	env.driver = null;
+    }
+
+    /**
+     * @param apacheRequest
+     * @throws IOException
+     */
+    public void saveSeleniumLogs(ApacheHttpRequest apacheRequest) throws IOException {
+	apacheRequest
+		.sendPost(
+			"http://127.0.0.1:4444/wd/hub/session/"
+				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
+			"client", env.logFile + "client.log");
+	apacheRequest
+		.sendPost(
+			"http://127.0.0.1:4444/wd/hub/session/"
+				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
+			"driver", env.logFile + "driver.log");
+	apacheRequest
+		.sendPost(
+			"http://127.0.0.1:4444/wd/hub/session/"
+				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
+			"browser", env.logFile + "browser.log");
+	apacheRequest
+		.sendPost(
+			"http://127.0.0.1:4444/wd/hub/session/"
+				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
+			"server", env.logFile + "server.log");
     }
 }

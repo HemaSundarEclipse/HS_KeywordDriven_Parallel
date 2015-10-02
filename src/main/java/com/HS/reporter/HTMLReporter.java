@@ -3,12 +3,8 @@
  */
 package com.HS.reporter;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +15,7 @@ import org.testng.ITestContext;
 import org.testng.xml.XmlTest;
 
 import com.HS.common.ExecutionEnvironment;
+import com.HS.common.UtilityMethods;
 import com.HS.pojos.StepDetails;
 import com.HS.pojos.TestCaseLocation;
 import com.HS.utils.Log;
@@ -58,7 +55,7 @@ public class HTMLReporter implements Reporter {
      * 
      */
     public synchronized void updateSuiteTemplate(ISuite suite) throws IOException {
-	String oldtext = readFile(new File(env.suiteReportPath));
+	String oldtext = new UtilityMethods().readFile(new File(env.suiteReportPath));
 	List<XmlTest> tests = suite.getXmlSuite().getTests();
 	for (XmlTest xmlTest : tests) {
 	    String updateString = "<tr><th>" + xmlTest.getName() + "</th><th><a href=" + xmlTest.getName()
@@ -66,7 +63,7 @@ public class HTMLReporter implements Reporter {
 	    oldtext = oldtext.replaceFirst("<!--Thread report link-->", updateString);
 	}
 
-	writeFile(new File(env.suiteReportPath), oldtext);
+	new UtilityMethods().writeFile(new File(env.suiteReportPath), oldtext);
     }
 
     /**
@@ -79,13 +76,13 @@ public class HTMLReporter implements Reporter {
 	FileUtils.copyFile(new File(env.threadReportTemplatePath),
 		new File(env.threadReportPath.replace("testTag", currentTest)));
 
-	String oldtext = readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
+	String oldtext = new UtilityMethods().readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
 
 	String updateString0 = "<td>S. No.</td><td>" + testCaseIDsForExecution.size()
 		+ "</td><td>Test group</td><td>Browser</td><td>Break point</td><td>Status</td><td>Failed TCs</td><td>Result</td>";
 	oldtext = oldtext.replace("<!--test cases summary row undefined-->", updateString0);
 
-	String oldtext1 = readFile(new File(env.testCaseReportTemplate));
+	String oldtext1 = new UtilityMethods().readFile(new File(env.testCaseReportTemplate));
 
 	for (TestCaseLocation testCase : testCaseIDsForExecution) {
 
@@ -94,7 +91,7 @@ public class HTMLReporter implements Reporter {
 		    "<!--test step detail for " + currentTest + "_" + testCase.getTCName() + "-->");
 	    oldtext = oldtext.replace("<!--test cases rows-->", updateString2);
 	}
-	writeFile(new File(env.threadReportPath.replace("testTag", currentTest)), oldtext);
+	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTest)), oldtext);
 
     }
 
@@ -112,7 +109,8 @@ public class HTMLReporter implements Reporter {
      */
     public void updateTestStep(StepDetails testCase, String currentTestTagName)
 	    throws FileNotFoundException, IOException {
-	String threadReportString = readFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)));
+	String threadReportString = new UtilityMethods()
+		.readFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)));
 
 	int index = threadReportString
 		.indexOf("id=\"" + currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "\"");
@@ -124,7 +122,9 @@ public class HTMLReporter implements Reporter {
 			+ currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "-->");
 	String resultantThreadReport = threadReportString.substring(0, index).concat(updatedPartString);
 
-	writeFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)), resultantThreadReport);
+	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)),
+		resultantThreadReport);
+
     }
 
     /**
@@ -132,25 +132,20 @@ public class HTMLReporter implements Reporter {
      * @throws FileNotFoundException
      * @throws IOException
      */
-    public String readFile(File file) throws FileNotFoundException, IOException {
-	BufferedReader br = new BufferedReader(new FileReader(file));
-	String line = "", oldtext = "";
-	while ((line = br.readLine()) != null) {
-	    oldtext += line + "\r\n";
-	    // System.out.println("Older HTML text is - " + oldtext);
-	}
-	br.close();
-	return oldtext;
-    }
-
-    /**
-     * @param oldtext
-     * @throws IOException
-     */
-    public void writeFile(File file, String oldtext) throws IOException {
-	BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-	bw.write(oldtext);
-	bw.flush();
-	bw.close();
-    }
+    /*
+     * private String readFile(File file) throws FileNotFoundException,
+     * IOException { BufferedReader br = new BufferedReader(new
+     * FileReader(file)); String line = "", oldtext = ""; while ((line =
+     * br.readLine()) != null) { oldtext += line + "\r\n"; //
+     * System.out.println("Older HTML text is - " + oldtext); } br.close();
+     * return oldtext; }
+     * 
+     *//**
+       * @param oldtext
+       * @throws IOException
+       *//*
+	 * private void writeFile(File file, String oldtext) throws IOException
+	 * { BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+	 * bw.write(oldtext); bw.flush(); bw.close(); }
+	 */
 }

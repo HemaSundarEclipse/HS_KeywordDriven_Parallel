@@ -106,7 +106,7 @@ public class ExecutionEnvironment {
 
 	propertyFileLocation = "src" + fileSeperator + "main" + fileSeperator + "java" + fileSeperator + "com"
 		+ fileSeperator + "HS" + fileSeperator + "common" + fileSeperator + "ExecEnv.properties";
-	logFile = "Logs";
+	logFile = "Logs" + fileSeperator;
 	suiteReportPath = projectRootDir + "\\Reports\\Report plan.html";
 	suiteReportTemplatePath = projectRootDir + "\\Report plan_Suite.html";
 	threadReportTemplatePath = projectRootDir + "\\Report plan_Thread.html";

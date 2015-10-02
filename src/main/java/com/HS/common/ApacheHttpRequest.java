@@ -1,9 +1,10 @@
 /**
  * 
  */
-package com.HS.practise;
+package com.HS.common;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -36,7 +37,7 @@ public class ApacheHttpRequest {
 	}
 
 	try {
-	    request.sendPost("https://selfsolve.apple.com/wcResults.do");
+	    request.sendPost("https://selfsolve.apple.com/wcResults.do", "client", "Logs/client.log");
 	} catch (UnsupportedOperationException | IOException e) {
 	    e.printStackTrace();
 	}
@@ -61,13 +62,16 @@ public class ApacheHttpRequest {
 
 	BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
 
-	StringBuffer result = new StringBuffer();
+	// StringBuffer result = new StringBuffer();
+	String result = null;
 	String line = "";
 	while ((line = rd.readLine()) != null) {
-	    result.append(line);
+	    // result.append(line);
+	    result = result.concat(line);
 	}
 
 	System.out.println(result);
+	new UtilityMethods().writeFile(new File("Logs/Sample.log"), result);
 
     }
 
@@ -76,7 +80,8 @@ public class ApacheHttpRequest {
      * @throws UnsupportedOperationException
      * 
      */
-    public void sendPost(String url) throws UnsupportedOperationException, IOException {
+    public void sendPost(String url, String logType, String outPutFile)
+	    throws UnsupportedOperationException, IOException {
 	// String url = "https://selfsolve.apple.com/wcResults.do";
 
 	HttpClient client = HttpClientBuilder.create().build();
@@ -98,7 +103,7 @@ public class ApacheHttpRequest {
 
 	JSONObject json = new JSONObject();
 	try {
-	    json.put("type", "client");
+	    json.put("type", logType);
 	} catch (JSONException e) {
 	    e.printStackTrace();
 	}
@@ -119,12 +124,20 @@ public class ApacheHttpRequest {
 
 	BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
 
-	StringBuffer result = new StringBuffer();
+	// StringBuffer result = new StringBuffer();
+	String result = "";
 	String line = "";
 	while ((line = rd.readLine()) != null) {
-	    result.append(line);
+	    // result.append(line);
+	    try {
+		result = result.concat(line);
+	    } catch (Exception e) {
+		e.printStackTrace();
+	    }
 	}
+
 	System.out.println(result);
+	new UtilityMethods().writeFile(new File(outPutFile), result);
     }
 
 }

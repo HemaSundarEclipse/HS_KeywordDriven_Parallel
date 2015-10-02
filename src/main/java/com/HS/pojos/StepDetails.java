@@ -21,10 +21,11 @@ public class StepDetails {
      * @param testObject
      * @param stepData
      * @param StepAction
+     * @param options
      * 
      */
-    public StepDetails(String tcName, String step, String parent, String testObject, String[] stepData,
-	    String StepAction, TestStepStatus stepStatus) {
+    public StepDetails(String tcName, String step, String parent, String testObject, String StepAction,
+	    String[] stepData, String options, TestStepStatus stepStatus) {
 	this.testCaseNameBelongTo = tcName;
 	this.step = step;
 	this.parent = parent;

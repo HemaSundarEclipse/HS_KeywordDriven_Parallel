@@ -48,4 +48,13 @@ public class UtilityMethods {
 	bw.flush();
 	bw.close();
     }
+
+    /**
+     * @param threadLogs
+     */
+    public void createCurrentAndParentDirectories(File threadLogs) {
+	if (!threadLogs.exists()) {
+	    threadLogs.mkdirs();
+	}
+    }
 }

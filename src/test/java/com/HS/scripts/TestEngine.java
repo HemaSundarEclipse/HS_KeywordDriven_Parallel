@@ -3,6 +3,7 @@
  */
 package com.HS.scripts;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,6 +20,7 @@ import org.testng.annotations.Test;
 import com.HS.common.ApacheHttpRequest;
 import com.HS.common.ExecutionEnvironment;
 import com.HS.common.TestStepExecution;
+import com.HS.common.UtilityMethods;
 import com.HS.dataReader.CSVDataReader;
 import com.HS.enums.TestCaseStatus;
 import com.HS.enums.TestStepStatus;
@@ -96,6 +98,9 @@ public class TestEngine {
 	env.updateEnv4mSystemProp();
 	env.assigningEnv(context);
 	env.loadEnv4mPropFile();
+	env.threadLogsFolder = env.logFile + env.currentTestTagName + "/";
+
+	new UtilityMethods().createCurrentAndParentDirectories(new File(env.threadLogsFolder));
     }
 
     /**
@@ -219,14 +224,16 @@ public class TestEngine {
 	String step = reader.getCellValue(tcData, tcRowNumber, "step");
 	String parent = reader.getCellValue(tcData, tcRowNumber, "parent");
 	String testObject = reader.getCellValue(tcData, tcRowNumber, "testObject");
+	String StepAction = reader.getCellValue(tcData, tcRowNumber, "stepaction");
 	String dataContent = reader.getCellValue(tcData, tcRowNumber, "stepdata");
 	/**
 	 * Need to read the stepDataRegex from ExecEnv.prop file or from
 	 * ExecutionEnvironment.java file
 	 */
 	String[] stepData = dataContent.split("#");
-	String StepAction = reader.getCellValue(tcData, tcRowNumber, "stepaction");
-	return new StepDetails(testCaseName, step, parent, testObject, stepData, StepAction, TestStepStatus.INITIAL);
+	String options = reader.getCellValue(tcData, tcRowNumber, "options");
+	return new StepDetails(testCaseName, step, parent, testObject, StepAction, stepData, options,
+		TestStepStatus.INITIAL);
     }
 
     /**
@@ -285,7 +292,6 @@ public class TestEngine {
     @AfterTest
     private void AfterTestMethod() throws Exception {
 	logger.info("In AfterTest method");
-
 	ApacheHttpRequest apacheRequest = new ApacheHttpRequest();
 	// apacheRequest.sendGet(
 	// "http://127.0.0.1:4444/wd/hub/session/" + ((RemoteWebDriver)
@@ -298,6 +304,7 @@ public class TestEngine {
 
     /**
      * @param apacheRequest
+     * @param iTestContext
      * @throws IOException
      */
     public void saveSeleniumLogs(ApacheHttpRequest apacheRequest) throws IOException {
@@ -305,21 +312,21 @@ public class TestEngine {
 		.sendPost(
 			"http://127.0.0.1:4444/wd/hub/session/"
 				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
-			"client", env.logFile + "client.log");
+			"client", env.threadLogsFolder + "client_" + env.currentTestTagName + ".log");
 	apacheRequest
 		.sendPost(
 			"http://127.0.0.1:4444/wd/hub/session/"
 				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
-			"driver", env.logFile + "driver.log");
+			"driver", env.threadLogsFolder + "driver_" + env.currentTestTagName + ".log");
 	apacheRequest
 		.sendPost(
 			"http://127.0.0.1:4444/wd/hub/session/"
 				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
-			"browser", env.logFile + "browser.log");
+			"browser", env.threadLogsFolder + "browser_" + env.currentTestTagName + ".log");
 	apacheRequest
 		.sendPost(
 			"http://127.0.0.1:4444/wd/hub/session/"
 				+ ((RemoteWebDriver) env.driver).getSessionId().toString() + "/log",
-			"server", env.logFile + "server.log");
+			"server", env.threadLogsFolder + "server_" + env.currentTestTagName + ".log");
     }
 }

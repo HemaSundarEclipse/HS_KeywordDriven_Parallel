@@ -55,21 +55,21 @@ public class TestNGEventListener implements ITestListener, IInvokedMethodListene
     // set/batch
 
     @Override
-    public void onStart(ITestContext arg0) {
+    public void onStart(ITestContext context) {
 
-	Reporter.log("About to begin executing Test " + arg0.getName(), true);
-	logger.info("About to begin executing Test " + arg0.getName());
-
+	Reporter.log("About to begin executing Test " + context.getName(), true);
+	logger.info("About to begin executing Test " + context.getName());
+	objTestNGVariables.setContext(context);
     }
 
     // This belongs to ITestListener and will execute, once the Test set/batch
     // is finished
 
     @Override
-    public void onFinish(ITestContext arg0) {
+    public void onFinish(ITestContext context) {
 
-	Reporter.log("Completed executing test " + arg0.getName(), true);
-	logger.info("Completed executing test " + arg0.getName());
+	Reporter.log("Completed executing test " + context.getName(), true);
+	logger.info("Completed executing test " + context.getName());
 
     }
 

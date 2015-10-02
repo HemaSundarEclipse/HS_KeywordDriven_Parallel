@@ -43,6 +43,7 @@ public class ExecutionEnvironment {
     public String propertyFileLocation;
 
     public String logFile;
+    public String threadLogsFolder;
     public String buildEnv;
     public String currentTestTagName;
     public String suiteReportPath;

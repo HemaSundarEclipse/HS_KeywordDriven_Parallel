@@ -55,15 +55,15 @@ public class HTMLReporter implements Reporter {
      * 
      */
     public synchronized void updateSuiteTemplate(ISuite suite) throws IOException {
-	String oldtext = new UtilityMethods().readFile(new File(env.suiteReportPath));
+	String currentSuiteReport = new UtilityMethods().readFile(new File(env.suiteReportPath));
 	List<XmlTest> tests = suite.getXmlSuite().getTests();
 	for (XmlTest xmlTest : tests) {
 	    String updateString = "<tr><th>" + xmlTest.getName() + "</th><th><a href=" + xmlTest.getName()
 		    + ".html>Report link</a></th></tr><!--Thread report link-->";
-	    oldtext = oldtext.replaceFirst("<!--Thread report link-->", updateString);
+	    currentSuiteReport = currentSuiteReport.replaceFirst("<!--Thread report link-->", updateString);
 	}
 
-	new UtilityMethods().writeFile(new File(env.suiteReportPath), oldtext);
+	new UtilityMethods().writeFile(new File(env.suiteReportPath), currentSuiteReport);
     }
 
     /**
@@ -75,24 +75,57 @@ public class HTMLReporter implements Reporter {
 	String currentTest = context.getCurrentXmlTest().getName();
 	FileUtils.copyFile(new File(env.threadReportTemplatePath),
 		new File(env.threadReportPath.replace("testTag", currentTest)));
-
-	String oldtext = new UtilityMethods().readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
-
-	String updateString0 = "<td>S. No.</td><td>" + testCaseIDsForExecution.size()
+	/**
+	 * Writing the test case summary row for the Thread initially only with
+	 * Total number of test case count.
+	 */
+	String currentThreadReport = new UtilityMethods()
+		.readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
+	String testCaseSummaryRow4Thread = "<td>S. No.</td><td>" + testCaseIDsForExecution.size()
 		+ "</td><td>Test group</td><td>Browser</td><td>Break point</td><td>Status</td><td>Failed TCs</td><td>Result</td>";
-	oldtext = oldtext.replace("<!--test cases summary row undefined-->", updateString0);
+	currentThreadReport = currentThreadReport.replace("<!--test cases summary row undefined-->",
+		testCaseSummaryRow4Thread);
 
-	String oldtext1 = new UtilityMethods().readFile(new File(env.testCaseReportTemplate));
+	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTest)),
+		currentThreadReport);
 
-	for (TestCaseLocation testCase : testCaseIDsForExecution) {
+	// writeTestCaseTemplate(testCaseIDsForExecution, currentTest);
+    }
 
-	    String updateString1 = oldtext1.replaceAll("unDefinedIdTestCase", currentTest + "_" + testCase.getTCName());
-	    String updateString2 = updateString1.replaceAll("<!--test step detail-->",
-		    "<!--test step detail for " + currentTest + "_" + testCase.getTCName() + "-->");
-	    oldtext = oldtext.replace("<!--test cases rows-->", updateString2);
-	}
-	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTest)), oldtext);
+    /**
+     * @param testCaseIDsForExecution
+     * @param iTestContext
+     * @param oldtext
+     * @throws FileNotFoundException
+     * @throws IOException
+     */
+    public void writeTestCaseTemplate(TestCaseLocation currentTestCase, ITestContext context)
+	    throws FileNotFoundException, IOException {
+	String currentTest = context.getCurrentXmlTest().getName();
+	String currentThreadReport = new UtilityMethods()
+		.readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
+	/**
+	 * Reading the single test case plan/template file
+	 */
+	String testCaseTemplate = new UtilityMethods().readFile(new File(env.testCaseReportTemplate));
+	/**
+	 * Writing the Above read test case template/html snippet for all the
+	 * test cases.
+	 */
+	// for (TestCaseLocation testCase : testCaseIDsForExecution) {
+	/**
+	 * Replacing the the id of the test case status row. It will be used for
+	 * hiding/showing the test case details with steps.
+	 */
+	String updateString1 = testCaseTemplate.replaceAll("unDefinedIdTestCase",
+		currentTest + "_" + currentTestCase.getTCName());
+	String updateString2 = updateString1.replaceAll("<!--test step detail-->",
+		"<!--test step detail for " + currentTest + "_" + currentTestCase.getTCName() + "-->");
 
+	currentThreadReport = currentThreadReport.replace("<!--test cases rows-->", updateString2);
+	// }
+	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTest)),
+		currentThreadReport);
     }
 
     /**
@@ -128,24 +161,15 @@ public class HTMLReporter implements Reporter {
     }
 
     /**
-     * @return
-     * @throws FileNotFoundException
      * @throws IOException
-     */
-    /*
-     * private String readFile(File file) throws FileNotFoundException,
-     * IOException { BufferedReader br = new BufferedReader(new
-     * FileReader(file)); String line = "", oldtext = ""; while ((line =
-     * br.readLine()) != null) { oldtext += line + "\r\n"; //
-     * System.out.println("Older HTML text is - " + oldtext); } br.close();
-     * return oldtext; }
+     * @throws FileNotFoundException
      * 
-     *//**
-       * @param oldtext
-       * @throws IOException
-       *//*
-	 * private void writeFile(File file, String oldtext) throws IOException
-	 * { BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-	 * bw.write(oldtext); bw.flush(); bw.close(); }
-	 */
+     */
+    public void readingTemplateFiles4Threads(ITestContext context) throws FileNotFoundException, IOException {
+	String currentTest = context.getCurrentXmlTest().getName();
+	String oldtext = new UtilityMethods().readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
+	String threadReportString = new UtilityMethods()
+		.readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
+	String oldtext1 = new UtilityMethods().readFile(new File(env.testCaseReportTemplate));
+    }
 }

@@ -127,7 +127,12 @@ public class TestEngine {
 	    e.printStackTrace();
 	}
 	for (TestCaseLocation currentTestCaseID : TestCaseIDsForExecution) {
-
+	    try {
+		objReporter.writeTestCaseTemplate(currentTestCaseID, objTestNGVariables.getContext());
+	    } catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	    }
 	    /* Write the test case row in HTML report */
 
 	    // Need to write logic to check whether the TC found in TC sheet or

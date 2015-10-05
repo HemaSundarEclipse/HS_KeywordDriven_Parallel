@@ -99,11 +99,10 @@ public class HTMLReporter implements Reporter {
      * @throws FileNotFoundException
      * @throws IOException
      */
-    public void writeTestCaseTemplate(TestCaseLocation currentTestCase, ITestContext context)
+    public void writeTestCaseTemplate(TestCaseLocation currentTestCase, String currentTestTagName)
 	    throws FileNotFoundException, IOException {
-	String currentTest = context.getCurrentXmlTest().getName();
 	String currentThreadReport = new UtilityMethods()
-		.readFile(new File(env.threadReportPath.replace("testTag", currentTest)));
+		.readFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)));
 	/**
 	 * Reading the single test case plan/template file
 	 */
@@ -118,13 +117,13 @@ public class HTMLReporter implements Reporter {
 	 * hiding/showing the test case details with steps.
 	 */
 	String updateString1 = testCaseTemplate.replaceAll("unDefinedIdTestCase",
-		currentTest + "_" + currentTestCase.getTCName());
+		currentTestTagName + "_" + currentTestCase.getTCName());
 	String updateString2 = updateString1.replaceAll("<!--test step detail-->",
-		"<!--test step detail for " + currentTest + "_" + currentTestCase.getTCName() + "-->");
+		"<!--test step detail for " + currentTestTagName + "_" + currentTestCase.getTCName() + "-->");
 
 	currentThreadReport = currentThreadReport.replace("<!--test cases rows-->", updateString2);
 	// }
-	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTest)),
+	new UtilityMethods().writeFile(new File(env.threadReportPath.replace("testTag", currentTestTagName)),
 		currentThreadReport);
     }
 
@@ -147,6 +146,9 @@ public class HTMLReporter implements Reporter {
 
 	int index = threadReportString
 		.indexOf("id=\"" + currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "\"");
+	if (index == -1) {
+	    System.out.println("match not found.");
+	}
 	String updatedPartString = threadReportString.substring(index).replace(
 		"<!--test step detail for " + currentTestTagName + "_" + testCase.getTestCaseNameBelongTo() + "-->",
 		"<tr><td>" + testCase.getTestCaseNameBelongTo() + "</td><td>" + testCase.getStepAction() + "</td><td>"

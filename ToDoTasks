@@ -1,0 +1,8 @@
+ToDo Tasks:
+--> IgnoreStep functionality.
+--> Improvements for Selenium Client logs in parallel -- Try to get logs based on Session
+--> Improving HTML report
+--> Exception handling
+--> Handling dirver.manage with native app automation.
+--> Need to refactor the html thread report. Need to write each test case at a time....
+--> 

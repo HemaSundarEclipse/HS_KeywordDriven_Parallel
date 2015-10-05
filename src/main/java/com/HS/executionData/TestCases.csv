@@ -2,4 +2,4 @@ testcase_id,Step,parent,testobject,stepaction,stepdata,options,TestGroups
 VerifyOutFit13A250,Given I Open the browser to go to default application,Common,eleCommon,openbrowser,http://google.com,,"Outfits, Base_Outfit, Android"
 ,Enter search string in the search field,Google,GoogleSearchBox,sendKeys,seleniumhq,,
 ,Verify the first result heading,Google,FirstResultHeading,verifyText,Selenium - Web Browser Automation,,
-VerifyOutFit13A250_1,Given I Open the browser to go to default application,Common,eleCommon,openbrowser,http://google.com,,"Outfits, Base_Outfit, Android"
+VerifyOutFit13A250_1,Given I Open the browser to go to default application,Common,eleCommon,openbrowser,http://facebook.com,,"Outfits, Base_Outfit, Android"

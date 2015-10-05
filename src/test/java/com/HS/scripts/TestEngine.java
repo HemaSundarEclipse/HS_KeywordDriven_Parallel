@@ -110,6 +110,8 @@ public class TestEngine {
     @Parameters({ "testGroup", "testCaseID" })
     public void exectingTests(String testGroup, String testCaseID, ITestContext context) {
 	logger.info("Sample");
+	System.out.println("SingleTon value is " + objTestNGVariables + " and context value is "
+		+ objTestNGVariables.getContext());
 	// objReporter.setFilePaths();
 	/* Loading test case data */
 	orData = reader.getORData();
@@ -128,7 +130,7 @@ public class TestEngine {
 	}
 	for (TestCaseLocation currentTestCaseID : TestCaseIDsForExecution) {
 	    try {
-		objReporter.writeTestCaseTemplate(currentTestCaseID, objTestNGVariables.getContext());
+		objReporter.writeTestCaseTemplate(currentTestCaseID, env.currentTestTagName);
 	    } catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -304,6 +306,7 @@ public class TestEngine {
 
 	saveSeleniumLogs(apacheRequest);
 	// Reset driver object state
+	env.driver.quit();
 	env.driver = null;
     }
 
